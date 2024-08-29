@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/resp_contact.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="container__nav">
+            <div class="nav">
+                <div class="nav__name">
+                    <h1>Luca Marcelli</h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">Project</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#" class="focus">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav__resp">
+            <h1>Luca Marcelli</h1>
+            <div class="nav__hamburger" id="menu">
+                <div class="all-btn">
+                    <div class="menu-btn-1" onclick="menuBtnFunction(this)">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav__resp-menu" id="list">
+            <ul class="resp__list">
+                <li><a href="index.html">Project</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" class="focus">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="text">
+            <p>
+                Let's have a chat, discuss ideas and maybe work together!
+            </p>
+        </div>
+        <div class="link">
+            <figcaption>
+                Find me on LinkedIn
+            </figcaption>
+            <figure>
+                <a href="https://www.linkedin.com/in/luca-marcelli-620994274/" target="_blank">
+                    <img src="assets/img/linkedin.png" alt="My account on linkedin" title="linkedin">
+                </a>
+            </figure>
+        </div>
+
+        <main class="container__form">
+            <form id="myForm">
+                <!-- name -->
+                <div class="name">
+                    <label for="name" name="name">Name<span>*</span></label>
+                    <input type="text" name="" id="name" placeholder="Es: Dohn" required>
+                </div>
+                <!-- surname -->
+                <div class="last__name">
+                    <label for="LastName" name="surname">Last name<span>*</span></label>
+                    <input type="text" name="" id="surname" placeholder="Es: Joe" required>
+                </div>
+
+                <!-- email -->
+                <div class="email">
+                    <label for="email" name="email">E-mail<span>*</span></label>
+                    <input type="email" name="" id="email" placeholder="Dohn_Joe@gmail.com" required>
+                </div>
+
+                <!-- message -->
+                <div class="msg">
+                    <label for="message" name="message">Message<span>*</span></label>
+                    <textarea name="text" id="message" placeholder="write your message" rows="6" cols="50" required></textarea>
+                </div>
+                <button type="submit" class="button">
+                    Send
+                </button>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <center>
+            Copyright© Luca Marcelli
+        </center>
+    </footer>
+
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/hamburgerMenu.js"></script>
+    <script src="assets/js/email.js"></script>
+</body>
+</html>

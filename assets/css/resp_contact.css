@@ -1,0 +1,143 @@
+@media screen and (max-width: 798px) {
+
+    nav {
+        top: 0;
+        margin-top: 0;
+    }
+
+    .container__nav {
+        display: none;
+    }
+
+    .nav__resp {
+        display: flex;
+        height: 98px;
+        background: #EEE;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav__resp p {
+        font-size: 28px;
+    }
+
+    .nav__hamburger {
+        cursor: pointer;
+    }
+
+    .nav__hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #4C2323;
+        margin-bottom: 7px;
+    }
+
+    .nav__resp-menu {
+        width: 100vw;
+        height: 100vh;
+        background: #EEE;
+    }
+
+    /* added with menu.js */
+    .block {
+        display: block;
+    }
+
+    .resp__list {
+        flex-direction: column;
+        gap: 36px;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .resp__list a {
+        width: 100%;
+        display: block;
+    }
+
+    ul li {
+        margin-inline-end: 0;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    /* Menu Button 1 */
+     .menu-btn-1 {
+        height: 32px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .menu-btn-1 span,
+    .menu-btn-1 span::before,
+    .menu-btn-1 span::after {
+        background: #4C2323;
+        border-radius: 3px;
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 6px;         
+        margin-top: 13px; 
+
+        -webkit-transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        -o-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .menu-btn-1 span::before {
+        margin-top:-12px;
+    }
+
+    .menu-btn-1 span::after {
+        margin-top:12px;
+    }
+
+    .menu-btn-1.active span {
+        background: transparent;
+    }
+
+    .menu-btn-1.active span::before {
+        margin-top: 0;
+
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .menu-btn-1.active span::after {
+        margin-top: 0;
+
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+
+
+    /*  */
+
+    .container__info {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .container__form {
+        grid-column: 1 / 3;
+        grid-row: 2 / 4;
+    }
+
+    .text {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .link {
+        grid-row: 4;
+    }
+}

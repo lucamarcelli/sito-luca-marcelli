@@ -27,6 +27,11 @@ h1 {
     text-transform: uppercase;
 }
 
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
 ul li {
     margin-inline-end: 34px;
 }
@@ -106,6 +111,10 @@ h2 {
     padding-top: 64px;
 }
 
+.container__works h2 {
+    width: clamp(320px, 80%, 1232px);
+    margin: auto;
+}
 
 .works {
     display: flex;

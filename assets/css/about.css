@@ -203,6 +203,11 @@ bold {
     background: #9999FF;
 }
 
-footer {
-    padding: 200px 0 30px 0;
+footer .center {
+    display: flex;
+    justify-content: center;
+}
+
+.center .center__text {
+    padding: 100px 0 30px 0;
 }

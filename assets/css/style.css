@@ -35,8 +35,8 @@ ul li {
     display: none;
 }
 
-.container__text .text {
-    font-size: 48px;
+.container__text .hero-text {
+    font-size: 28px;
 }
 
 nav .nav {
@@ -90,6 +90,9 @@ header {
     padding: 36px 62px;
 }
 
+h2 {
+    font-size: 40px;
+}
 
 /* Main */
 
@@ -159,6 +162,11 @@ header {
     opacity: 1;
 }
 
-footer {
-    padding: 250px 0 30px 0;
+footer .center {
+    display: flex;
+    justify-content: center;
+}
+
+.center .center__text {
+    padding: 100px 0 30px 0;
 }

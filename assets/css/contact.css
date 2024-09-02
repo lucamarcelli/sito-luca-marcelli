@@ -11,10 +11,6 @@
     font-style: normal;
 }
 
-body {
-    background: #eee;
-}
-
 /* menu */
 .nav__resp {
     display: none;

@@ -40,10 +40,6 @@ ul li {
     display: none;
 }
 
-.container__text .hero-text {
-    font-size: 28px;
-}
-
 nav .nav {
     align-items: center;
     border: 1px solid black;
@@ -97,6 +93,24 @@ header {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container__text .hero-text {
+    font-size: 28px;
+}
+
+.container__text h3 {
+    margin-top: 20px;
+    text-align: end;
+}
+
+h3 a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 40px;
 }
 
 /* Main */
@@ -110,6 +124,8 @@ h2 {
     justify-content: center;
     padding-top: 64px;
 }
+
+/* project */
 
 .container__works h2 {
     width: clamp(320px, 80%, 1232px);

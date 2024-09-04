@@ -82,9 +82,9 @@
 
 
 
-.all-btn {
-    padding:12% 5%;
-}
+    .all-btn {
+        padding:12% 5%;
+    }
 
     .all-btn div {
         float: left;
@@ -95,6 +95,9 @@
         margin-right: 0;
     }
 
+    h3 a {
+        font-size: 14px;
+    }
 
     /* Menu Button 1 */
     .menu-btn-1 {
